@@ -8,18 +8,18 @@ fastapi>=0.109.0
 uvicorn[standard]>=0.27.0
 httpx>=0.26.0
 
-# FIPS 140-3 cryptography (Upgrade 1)
+# FIPS 140-3 cryptography 
 cryptography>=42.0.0
 
-# Embedding similarity (Upgrade 5)
+# Embedding similarity 
 sentence-transformers>=2.6.0
 torch>=2.1.0
 numpy>=1.26.0
 
-# Air-gap local model (Upgrade 6)
+# Air-gap local model 
 ollama>=0.1.7
 
-# Secrets management (Upgrade 9)
+# Secrets management 
 hvac>=2.1.0
 
 # Rate limiting
