@@ -1,0 +1,44 @@
+# Core
+anthropic>=0.40.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# API / Proxy
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+httpx>=0.26.0
+
+# FIPS 140-3 cryptography (Upgrade 1)
+cryptography>=42.0.0
+
+# Embedding similarity (Upgrade 5)
+sentence-transformers>=2.6.0
+torch>=2.1.0
+numpy>=1.26.0
+
+# Air-gap local model (Upgrade 6)
+ollama>=0.1.7
+
+# Secrets management (Upgrade 9)
+hvac>=2.1.0
+
+# Rate limiting
+redis>=5.0.0
+
+# Observability
+structlog>=24.1.0
+opentelemetry-api>=1.22.0
+opentelemetry-sdk>=1.22.0
+
+# Streamlit
+streamlit>=1.29.0
+plotly>=5.18.0
+pandas>=2.1.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Dev
+python-dotenv>=1.0.0
